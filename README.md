@@ -52,28 +52,3 @@ python -m streamlit run app.py
 ```
 
 Your browser should open automatically. If it does not, open the local address shown in the terminal, usually `http://localhost:8501`.
-
-## Upload to GitHub
-
-Run these commands from the project folder after you have created the files:
-
-```powershell
-git init
-git branch -M main
-git remote add origin https://github.com/Kumar-Shivam01/iris-flower-classification-py.git
-git add .
-git commit -m "Create Iris flower classification app"
-git push -u origin main
-```
-
-If GitHub asks you to sign in, follow the browser instructions. A password may not work; GitHub normally uses a browser sign-in or a personal access token.
-
-## Deploy with Streamlit Community Cloud
-
-1. Visit [share.streamlit.io](https://share.streamlit.io/) and sign in with GitHub.
-2. Choose **Create app**.
-3. Select the repository `Kumar-Shivam01/iris-flower-classification-py`.
-4. Keep the main file as `app.py`.
-5. Click **Deploy**.
-
-Streamlit installs the libraries listed in `requirements.txt` and gives you a public website link.
